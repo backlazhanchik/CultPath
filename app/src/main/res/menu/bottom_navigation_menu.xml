@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_courses"
+        android:icon="@drawable/ghnghyyy"
+        android:title="Курсы" />
+    <item
+        android:id="@+id/nav_movies"
+        android:icon="@drawable/fgnh"
+        android:title="Киноархив" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/egr"
+        android:title="Чат-бот" />
+    <item
+        android:id="@+id/nav_chatbot"
+        android:icon="@drawable/dhhfgn"
+        android:title="Профиль" />
+</menu>

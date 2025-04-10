@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".LearningPurposeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="С какой целью вы изучаете эти темы?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgPurpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbConversation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Для свободного разговора на эти темы"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+
+            <RadioButton
+                android:id="@+id/rbHobby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Заведите себе хобби"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+
+            <RadioButton
+                android:id="@+id/rbTests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подготовьтесь к тестам по этим темам"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Дальше"
+            android:textAllCaps="false"
+            android:padding="12dp"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>
