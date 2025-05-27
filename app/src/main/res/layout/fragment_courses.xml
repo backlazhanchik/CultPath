@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:iconifiedByDefault="false"
-            android:queryHint="Search courses"
+            android:queryHint="Поиск курсов"
             android:layout_marginBottom="16dp" />
 
         <LinearLayout
@@ -147,7 +147,7 @@
                         android:id="@+id/chip_crafts"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Ремесла"
+                        android:text="Рукоделие"
                         style="@style/Widget.MaterialComponents.Chip.Filter" />
 
                     <com.google.android.material.chip.Chip

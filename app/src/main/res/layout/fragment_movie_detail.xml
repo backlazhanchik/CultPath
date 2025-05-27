@@ -55,7 +55,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Add to Favorites"
+                android:text="Добавить в избранное"
                 android:layout_marginEnd="8dp" />
 
             <Button
@@ -63,7 +63,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Add to Walkthrough"
+                android:text="Добавить в прохождение"
                 android:layout_marginStart="8dp" />
         </LinearLayout>
 
@@ -71,7 +71,7 @@
             android:id="@+id/btn_back"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Back" />
+            android:text="Назад" />
 
     </LinearLayout>
 </ScrollView>

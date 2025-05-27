@@ -97,7 +97,7 @@ public class CourseDetailFragment extends Fragment {
         btnAddToWalkthrough.setOnClickListener(v -> {
             if (userId != -1L) {
                 databaseHelper.addCourseToWalkthrough(userId, course);
-                Toast.makeText(requireContext(), "Добавлено в пошаговое руководство",
+                Toast.makeText(requireContext(), "Добавлено в прохождение",
                         Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(requireContext(),

@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:iconifiedByDefault="false"
-            android:queryHint="Search movies"
+            android:queryHint="Поиск фильмов"
             android:layout_marginBottom="16dp" />
 
         <LinearLayout
@@ -106,7 +106,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Interests"
+                android:text="Интересы"
                 android:textStyle="bold"
                 android:layout_marginBottom="8dp" />
 
@@ -126,35 +126,35 @@
                         android:id="@+id/chip_art"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Art"
+                        android:text="Искусство"
                         style="@style/Widget.MaterialComponents.Chip.Filter" />
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_history"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="History"
+                        android:text="История"
                         style="@style/Widget.MaterialComponents.Chip.Filter" />
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_science"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Scientific inventions"
+                        android:text="Научные изобретения"
                         style="@style/Widget.MaterialComponents.Chip.Filter" />
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_crafts"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Crafts"
+                        android:text="Рукоделие"
                         style="@style/Widget.MaterialComponents.Chip.Filter" />
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_folklore"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Folklore"
+                        android:text="Фольклор"
                         style="@style/Widget.MaterialComponents.Chip.Filter" />
                 </com.google.android.material.chip.ChipGroup>
             </HorizontalScrollView>
@@ -162,7 +162,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Age"
+                android:text="Возраст"
                 android:textStyle="bold"
                 android:layout_marginBottom="8dp" />
 
@@ -224,7 +224,7 @@
             android:id="@+id/tv_others_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Others"
+            android:text="Фильмы"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp"
